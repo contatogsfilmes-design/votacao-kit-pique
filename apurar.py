@@ -7,7 +7,7 @@ from datetime import datetime
 from pathlib import Path
 
 AQUI = Path(__file__).parent
-MODELOS = {"blueprint": "Blueprint", "desenho-tecnico": "Desenho técnico", "sequencia": "Sequência", "contorno-pb": "Contorno", "prancha-pb": "Prancha", "blueprint-limpo": "Blueprint limpo", "ambar": "Âmbar"}
+MODELOS = {"blueprint": "Blueprint", "desenho-tecnico": "Desenho técnico", "sequencia": "Sequência", "contorno-pb": "Contorno", "prancha-pb": "Prancha", "blueprint-limpo": "Blueprint limpo", "onca": "Onça"}
 base = sys.argv[1] if len(sys.argv) > 1 else re.search(r'VOTOS_BASE = "([^"]+)"', (AQUI / "votos-config.js").read_text(encoding="utf-8")).group(1)
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")

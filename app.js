@@ -7,7 +7,7 @@
     { id: "contorno-pb", nome: "Contorno", txt: "Preto e branco: um guepardo enorme em linha fina sobre o preto." },
     { id: "prancha-pb", nome: "Prancha", txt: "Preto e branco: fundo branco de papel técnico, com grade cinza." },
     { id: "blueprint-limpo", nome: "Blueprint limpo", txt: "Grade de pontos, com um guepardo grande bem apagado ao fundo." },
-    { id: "ambar", nome: "Âmbar", txt: "O mousepad inteiro na cor da marca, com o guepardo preto." }
+    { id: "onca", nome: "Onça", txt: "Pintas pretas de ponta a ponta sobre o âmbar, com o guepardo no canto." }
   ];
   var API = "https://textdb.dev/api/data/", GRUPOS = 16, GUARDADO = "voto-kit-pique";
   var el = function (id) { return document.getElementById(id); };
